@@ -1,0 +1,143 @@
+{
+    "name": "Vijay",
+    "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
+    "logo": "https://telegra.ph/file/08b5602c325d5b5646baa.jpg",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/PbAjay/Vijay",
+    "repository": "https://github.com/PbAjay/Vijay",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "CHANNELS": {
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "required": false
+        },
+        "ADMINS": {
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "required": true
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures .",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "required": true                              
+        },
+        "AUTH_CHANNEL": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "required": false
+        },   
+        "USE_CAPTION_FILTER": {
+            "description": "Whether bot should use captions to improve search results. (True False)",
+            "value": "True",
+            "required": false
+        },
+        "MAX_RIST_BTNS": {
+            "description": "Maximum number of serch result buttons count ⚠️below 10 only ",
+            "value": "10",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "value": "**{file_name}**\n**@MalluHubGP**",
+            "required": false
+        },
+        "DATABASE_URI": {
+            "description": "mongoDB URI.",
+            "required": true
+        },
+        "DATABASE_NAME": {
+            "description": "Name of the database in mongoDB.",
+            "value": "Cluster0",
+            "required": false
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
+            "value": "Telegram_files",
+            "required": false        
+        },
+        "SUPPORT_CHAT": {
+            "description": "Updated Channel Username Without @ Not Chanel ID",
+            "value": "Crude_X",
+            "required": false
+        },
+        "IMDB": {
+            "description": "Imdb, the view of information when making True/False",
+            "value": "True",
+            "required": false     
+        },
+        "IMDB_TEMPLATE": {
+            "description": "Custom IMDB Template",
+            "value": "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}\n<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}\n<b>📑 wʀɪᴛᴇʀ</b>: {writer}\n<b>📀 RunTime</b>: {runtime} Minutes\n<b>📆 Release Info</b> : {release_date}\n<b>🎛 Countries</b> : <code>{countries}</code>\n<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>\n\n\n<b>🍀Requested by🍀</b> : {message.from_user.mention}",        
+            "required": false
+        }, 
+        "IMDB_DELET_TIME": {
+            "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
+            "value": "300",
+            "required": false  
+        },
+        "SINGLE_BUTTON": {
+            "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
+            "value": "True",
+            "required": false         
+        },
+        "START_MESSAGE": {
+            "description": "bot start message text [ {user} = bot startd user name {bot} = your bot name",
+            "value": "ʜᴇʟʟᴏ {user}\n\nᴍʏ ɴᴀᴍᴇ {bot},\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs, ʏᴏᴜ ᴊᴜsᴛ ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ...",
+            "required": false
+        },
+        "BTN_LOCK_ALERT": {
+            "description": "Button Lock text use one person search risult dont use other person 😁 alert text (use  {query} = user mention )",
+            "value": "ʜᴇʏ {query}! ᴛʜᴀᴛ's ɴᴏᴛ ғᴏʀ ʏᴏᴜ. sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴏᴡɴ",
+            "required": false 
+        },
+        "FORCE_SUB_TEXT": {
+            "description": "custom force sub text (use ** = bold / use ``=  mono)",
+            "value": "**ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ**",
+            "required": false
+        },
+        "HEROKU_API_KEY": {
+            "description": "your heroku api key. only using dyno checker (optional)",
+            "required": false 
+        },
+        "P_TTI_SHOW_OFF": {
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+            "value": "True",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

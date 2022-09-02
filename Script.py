@@ -12,7 +12,7 @@ class script(object):
 ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴍᴀᴊᴏʀ"""
     SOURCE_TXT = """<b>NOTE:</b>
 ᴠɪᴊᴀʏ ɪs ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
-sᴏᴜʀᴄᴇ : <a href=https://github.com/PbAjay/Vijay>ᴠɪᴊᴀʏ</a>
+sᴏᴜʀᴄᴇ : <a href=https://github.com/MrMKN/PROFESSOR-BOT>ᴠɪᴊᴀʏ</a>
 
 <b>ᴅᴇᴠ:</b>
 <a href=https://t.me/Crude_X>ᴄʀᴜᴅᴇ_x</a>"""

@@ -92,7 +92,7 @@ broadcast - to broadcast a message to all Eva Maria users
 
 *  [Professor Bot](https://github.com/MrMKN/PROFESSOR-BOT)
 
-*  [Professor Bot](https://github.com/Aadhi000/Ajax-Extra-Features)
+*  [Ajax Bot](https://github.com/Aadhi000/Ajax-Extra-Features)
 
 ## Credits 
 
